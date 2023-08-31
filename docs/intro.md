@@ -1,7 +1,13 @@
 ---
 sidebar_position: 1
 ---
-
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.

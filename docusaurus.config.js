@@ -6,6 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
   title: 'My Site',
   tagline: 'Dinosaurs are cool test CI_CD',
   favicon: 'img/favicon.ico',
@@ -61,6 +67,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
