@@ -12,7 +12,7 @@ const config = {
   themes: ['@docusaurus/theme-mermaid'],
 
   plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
-  title: 'My Site',
+  title: 'Zhuravlev Docs',
   tagline: 'Dinosaurs are cool test CI_CD',
   favicon: 'img/favicon.ico',
 
@@ -72,9 +72,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Zhuravlev Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'logo-zhuravlev',
           src: 'img/logo.svg',
         },
         items: [
@@ -82,7 +82,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Документация',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Сергей Журавлев`,
       },
       prism: {
         theme: lightCodeTheme,
