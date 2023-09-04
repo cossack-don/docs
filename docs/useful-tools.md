@@ -1,3 +1,6 @@
 # Полезные инструменты
 
 - [Альтернатива GPT CHAT](https://www.phind.com/)
+- [Vercel](https://vercel.com/dashboard)
+- [Code Pen](https://codepen.io/)
+- [SandBox Code](https://codesandbox.io/dashboard/recent)
