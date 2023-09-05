@@ -9,6 +9,7 @@
 - [Lern JS](https://learn.javascript.ru/)
 - [NOP](https://nuancesprog.ru/)
 - [To Code](https://tocode.ru/)
+- [Огромный справочник с русским переводом](https://runebook.dev/)
 
 ### Vue.js
 - [Vue School](https://vueschool.io/)
