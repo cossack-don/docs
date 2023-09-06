@@ -86,8 +86,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/cossack-don',
+            label: 'My GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://s-zhur.ru',
+            label: 'My Site',
             position: 'right',
           },
         ],
