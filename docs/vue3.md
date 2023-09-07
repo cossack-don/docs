@@ -64,8 +64,6 @@ Vue Moskow
 
 [[Lern vue -youtobe](https://www.youtube.com/@LearnVue)]
 
-[[Code me - vue - учебник](https://www.code.mu/ru/)]
-
 [[Vue stuped components - github](https://github.com/exbotanical/vue3-styled-components/tree/master/src)]
 
 [[Vue + TS + setup - lesson](https://www.youtube.com/watch?v=p1eO5dZnp_Q)]
