@@ -19,9 +19,9 @@ Vue Moskow
 
 [[Русская дока Vite](https://vite-docs-ru.vercel.app/)]
 
-[[Vue 3 docs](https://v3.ru.vuejs.org/ru/guide/introduction.html)]
+[Vue 3 docs](https://v3.ru.vuejs.org/ru/guide/introduction.html)
 
-[[Vite curse - youtube](https://www.youtube.com/watch?v=SBtNHd7ZBn4&list=PL-FhWbGlJPfZg649Ukk5vPa4nUjHhQ6o3)]
+[Vite curse - youtube](https://www.youtube.com/watch?v=SBtNHd7ZBn4&list=PL-FhWbGlJPfZg649Ukk5vPa4nUjHhQ6o3)
 
 [[VueMastery - youtobe](https://www.youtube.com/@VueMastery/videos)]
 
