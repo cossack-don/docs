@@ -11,6 +11,7 @@
 - [Список IT компаний](https://habr.com/ru/companies/habr_career/articles/501966/)
 - [Bundle Webpack - худеет, StatoScope](https://statoscope.tech/#&hash=77e78c47e9ed36d00045)
 - [Монорепозитории Lerna](https://lerna.js.org)
+- [Список полезных инструментов Frontend](https://bookflow.ru/spisok-poleznyh-instrumentov-dlya-frontend-razrabotchikov/)
 
 
 ### Курсы
