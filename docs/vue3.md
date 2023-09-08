@@ -23,22 +23,23 @@ Vue Moskow
 
 [Vite curse - youtube](https://www.youtube.com/watch?v=SBtNHd7ZBn4&list=PL-FhWbGlJPfZg649Ukk5vPa4nUjHhQ6o3)
 
-[[VueMastery - youtobe](https://www.youtube.com/@VueMastery/videos)]
+[VueMastery - youtobe](https://www.youtube.com/@VueMastery/videos)
 
-[[Pinia - curse youtobe](https://www.youtube.com/watch?v=u0B9dysw29A&list=PL4cUxeGkcC9hp28dYyYBy3xoOdoeNw-hD)]
+[Pinia - curse youtobe](https://www.youtube.com/watch?v=u0B9dysw29A&list=PL4cUxeGkcC9hp28dYyYBy3xoOdoeNw-hD)
 
-[[Erik Vue - youtobe](https://www.youtube.com/@ProgramWithErik/videos)]
+[Erik Vue - youtobe](https://www.youtube.com/@ProgramWithErik/videos)
 
-[[Vue + TS curse - youtobe](https://www.youtube.com/watch?v=JfI5PISLr9w&list=PLXCRVQoBC6506Vb5Zip04DQXp5Es-YpiP)]
+[Vue + TS curse - youtobe](https://www.youtube.com/watch?v=JfI5PISLr9w&list=PLXCRVQoBC6506Vb5Zip04DQXp5Es-YpiP)
 
 [Vue 3 Klimov - youtobe](https://www.youtube.com/@JavaScriptNinja/playlists)
 [Lessons Vue - youtobe](https://www.youtube.com/@MakeAppswithDanny/videos)
 
-[[Vue + TS cuse - youtobe](https://www.youtube.com/@koderhq/playlists)]
+[Vue + TS cuse - youtobe](https://www.youtube.com/@koderhq/playlists)
 
-[[Vue + NPM + Pinia - youtobe](https://www.youtube.com/@frontend-skills/playlists)]
+[Vue + NPM + Pinia - youtobe](https://www.youtube.com/@frontend-skills/playlists)
 
-[[Vue School - youtobe](https://www.youtube.com/@vueschool)]
+
+[Vue School - youtobe](https://www.youtube.com/@vueschool)
 
 [[Vue School - off site](https://vueschool.io/)]
 
