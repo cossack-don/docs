@@ -4,3 +4,4 @@
 2. [Трехслойная Архитектура](https://doka.guide/tools/clean-architecture/)
 3. [React Архитектура - видео](https://www.youtube.com/watch?v=Zy-Oj6qs8vo)
 4. [Микрофронтенды ](https://itnan.ru/post.php?c=1&p=518912)
+5. [Turbo - монорепы](https://turbo.build/repo)
