@@ -4,3 +4,4 @@
 - [Полезный блог по TS](https://medium.com/@bytefer)
 - [Комплекс статей по TS](https://habr.com/ru/companies/timeweb/articles/685954/)
 - [TS видео курс](https://www.youtube.com/playlist?list=PLu6MFGxDdilhKzUePH96oqhedQXROTNmg)
+- [Карманная книга по TypeScript](https://typescript-handbook.ru/)
