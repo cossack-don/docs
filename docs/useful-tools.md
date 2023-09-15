@@ -10,7 +10,6 @@
 - [Road Map Frontend](https://andreasbm.github.io/web-skills/)
 - [Список IT компаний](https://habr.com/ru/companies/habr_career/articles/501966/)
 - [Bundle Webpack - худеет, StatoScope](https://statoscope.tech/#&hash=77e78c47e9ed36d00045)
-- [Монорепозитории Lerna](https://lerna.js.org)
 - [Список полезных инструментов Frontend](https://bookflow.ru/spisok-poleznyh-instrumentov-dlya-frontend-razrabotchikov/)
 - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 - [Карта навыков Frontend Yandex](https://yandex.ru/company/researches/2023/frontenders?mindbox-message-key=3405284274458722304&mindbox-click-id=2dda9973-6e8d-4db2-8859-0bf777295b6e&utm_source=letter&utm_medium=yfd&utm_campaign=letter_1&utm_content=all&utm_term=digest_14_09_2023)
