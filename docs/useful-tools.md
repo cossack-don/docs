@@ -18,6 +18,12 @@
 - [FireBase](https://firebase.google.com/)
 - [Postman](https://www.postman.com/)
 - [Trello](https://trello.com/)
+- [Notion](https://www.notion.so/)
+- [Strapi CMS](https://strapi.io/)
+- [MONGO BD Online](https://www.mongodb.com/online)
+- [Whimsical альтернатива Miro](https://whimsical.com)
+- [GitBook](https://www.gitbook.com/)
+- 
 
 ### Курсы
 - [Шумсудинов](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZGa7hYnwBQufg9XXoJr5LP)
