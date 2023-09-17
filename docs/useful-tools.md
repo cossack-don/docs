@@ -14,7 +14,7 @@
 - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 - [Карта навыков Frontend Yandex](https://yandex.ru/company/researches/2023/frontenders?mindbox-message-key=3405284274458722304&mindbox-click-id=2dda9973-6e8d-4db2-8859-0bf777295b6e&utm_source=letter&utm_medium=yfd&utm_campaign=letter_1&utm_content=all&utm_term=digest_14_09_2023)
 - [Версионирование приложения](https://semantic-release.gitbook.io/semantic-release/)
-
+- [Neon for node.js bd](https://neon.tech)
 
 ### Курсы
 - [Шумсудинов](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZGa7hYnwBQufg9XXoJr5LP)
