@@ -23,7 +23,7 @@
 - [MONGO BD Online](https://www.mongodb.com/online)
 - [Whimsical альтернатива Miro](https://whimsical.com)
 - [GitBook](https://www.gitbook.com/)
-- 
+- [Vercel Storage BD](https://vercel.com/storage/kv)
 
 ### Курсы
 - [Шумсудинов](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZGa7hYnwBQufg9XXoJr5LP)
