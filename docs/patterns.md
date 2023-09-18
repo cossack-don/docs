@@ -40,3 +40,4 @@
 [https://bool.dev/blog/detail/antipatterny-v-programmirovanii-i-proektirovanii-arkhitektury](https://www.notion.so/https-bool-dev-blog-detail-antipatterny-v-programmirovanii-i-proektirovanii-arkhitektury-7dd143bd87aa459487e896fab6011a35?pvs=21)
 
 [https://proglib.io/p/5-prodvinutyh-patternov-react-razrabotki-2021-05-30](https://www.notion.so/https-proglib-io-p-5-prodvinutyh-patternov-react-razrabotki-2021-05-30-aabd5a6631604f2c88280d166c9935b4?pvs=21)
+[Видео курс ru](https://www.youtube.com/playlist?list=PLNkWIWHIRwMGzgvuPRFkDrpAygvdKJIE4)
