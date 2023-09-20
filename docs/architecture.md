@@ -7,3 +7,4 @@
 5. [Turbo - монорепы](https://turbo.build/repo)
 6. [Lerna - монорепы](https://lerna.js.org)
 7. [Nx - монорепы](https://nx.dev/)
+8. [Парадигмы программирования](https://doka.guide/js/programming-paradigms/)
