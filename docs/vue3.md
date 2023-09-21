@@ -72,3 +72,4 @@ Vue Moskow
 [DOCS JavaScript , TS](https://college.arthur-nesterenko.dev/javascript/for-loop)
 [Best Vue Form Libraries of 2023 - Made with Vue.js](https://madewithvuejs.com/blog/best-vue-form-libraries)
 https://www.vuemastery.com/blog/data-fetching-and-caching-with-swr-and-vuejs/
+https://habr.com/ru/articles/668072/
