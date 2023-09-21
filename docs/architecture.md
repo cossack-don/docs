@@ -8,3 +8,4 @@
 6. [Lerna - монорепы](https://lerna.js.org)
 7. [Nx - монорепы](https://nx.dev/)
 8. [Парадигмы программирования](https://doka.guide/js/programming-paradigms/)
+9. [Пример архитектруты на Vue](https://github.com/vbenjs/vue-vben-admin/tree/main/src)
