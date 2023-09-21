@@ -28,6 +28,7 @@
 - [Огромная документация](https://devdocs.io)
 - [Бесплатные картинки svg](https://undraw.co/illustrations)
 - [Разные полезные митапы](https://www.youtube.com/@EvroneDevelopment/videos)
+- [Много примеров на Vue.js](https://bestofvue.com/)
 
 ### Курсы
 - [Шумсудинов](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZGa7hYnwBQufg9XXoJr5LP)
