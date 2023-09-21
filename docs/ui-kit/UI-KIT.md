@@ -8,3 +8,4 @@
 - Storybook + source vue 2 ссылки ниже
 - https://github.com/cloudforet-io/mirinae/tree/beta
 - https://storybook.developer.spaceone.dev/?path=/docs/data-display-badge--playground
+- https://yandex.ru/search/?clid=1906591&text=side+effect+package+json&lr=213&redircnt=1695278410.1
