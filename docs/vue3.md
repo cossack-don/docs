@@ -73,3 +73,4 @@ Vue Moskow
 [Best Vue Form Libraries of 2023 - Made with Vue.js](https://madewithvuejs.com/blog/best-vue-form-libraries)
 https://www.vuemastery.com/blog/data-fetching-and-caching-with-swr-and-vuejs/
 https://habr.com/ru/articles/668072/
+https://www.youtube.com/watch?v=ccsz9FRy-nk&t=1s
