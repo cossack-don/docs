@@ -49,3 +49,4 @@
 
 [https://my-js.org/docs/cheatsheet/react-typescript/ ](https://www.notion.so/https-my-js-org-docs-cheatsheet-react-typescript-269bfa6b2a17445c83b03ea8487acf02?pvs=21)
 [React +TS](https://my-js.org/docs/cheatsheet/react-typescript/)
+- [react + ts ](https://www.youtube.com/watch?v=j-LxLzYgpX4&list=PLdTPrJkdrLGGgSnXMsO-Rix3MTuySb_mF&index=6)
