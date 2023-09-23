@@ -31,12 +31,16 @@
 - [Много примеров на Vue.js](https://bestofvue.com/)
 - [Frontend Conf Channel](https://www.youtube.com/@FrontendChannel)
 - [BugSnag for Vue альтернатива Sonar](https://docs.bugsnag.com/platforms/javascript/vue/)
-- [Авторизация через .htcss получение пути <?php
+
+
+[Авторизация через .htcss и htpasswd](https://bewave.ru/blog/nastroyka-http-basic-auth-v-trekh-slovakh/)
+
+```php
+И получение пути
+<?php
 phpinfo () ;
-?> ](https://bewave.ru/blog/nastroyka-http-basic-auth-v-trekh-slovakh/)
-- 
-
-
+?>
+```
 
 ### Курсы
 - [Шумсудинов](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZGa7hYnwBQufg9XXoJr5LP)
