@@ -30,6 +30,7 @@
 - [Разные полезные митапы](https://www.youtube.com/@EvroneDevelopment/videos)
 - [Много примеров на Vue.js](https://bestofvue.com/)
 - [Frontend Conf Channel](https://www.youtube.com/@FrontendChannel)
+- [BugSnag for Vue альтернатива Sonar](https://docs.bugsnag.com/platforms/javascript/vue/)
 
 ### Курсы
 - [Шумсудинов](https://www.youtube.com/watch?v=pn5myCmpV2U&list=PLHhi8ymDMrQZGa7hYnwBQufg9XXoJr5LP)
