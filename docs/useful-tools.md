@@ -31,6 +31,7 @@
 - [Много примеров на Vue.js](https://bestofvue.com/)
 - [Frontend Conf Channel](https://www.youtube.com/@FrontendChannel)
 - [BugSnag for Vue альтернатива Sonar](https://docs.bugsnag.com/platforms/javascript/vue/)
+- [Быстрая рега email](https://temp-mail.org/ru/)
 
 
 [Авторизация через .htcss и htpasswd](https://bewave.ru/blog/nastroyka-http-basic-auth-v-trekh-slovakh/)
