@@ -41,6 +41,7 @@
 <?php
 phpinfo () ;
 ?>
+$path = $_SERVER[‘DOCUMENT_ROOT’];
 ```
 
 ### Курсы
