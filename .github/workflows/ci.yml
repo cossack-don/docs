@@ -1,32 +1,32 @@
-
-
-
-
 name: Release
 
 on:
   push:
-    branches: [main, beta,master]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
 
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v2
         with:
-          node-version: 18.x
+          node-version: '18'
       - name: Install dependencies
-        run: npx ci
-      - name: Install semantic-release extra plugins
-        run: npm install --save-dev @semantic-release/changelog @semantic-release/git
+        run: npm ci
+      ## Build Step to Output dist/index.js
       - name: Build
         run: npm run build
-      - name: Release
+      ## With the above semantic-release configuration, will create a release and push the dist/index.js file as well as all the tags required
+      - name: Semantic Release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
-        run: npx semantic-release
