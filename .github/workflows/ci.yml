@@ -1,27 +1,28 @@
-# release action with semantic release
 name: Release
 
 on:
   push:
-    branches: [main, master]
-
-
+    branches: [ beta,master]
 
 jobs:
   release:
     name: Release
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js 18.17.x
-        uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
         with:
-          node-version: '18.17'
+          node-version: 18.x
       - name: Install dependencies
-        run: npm ci
-      - name: Semantic Release
-        run: npx semantic-release
+        run: npx ci
+      - name: Install semantic-release extra plugins
+        run: npm install --save-dev @semantic-release/changelog @semantic-release/git
+      - name: Build
+        run: npm run build
+      - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
