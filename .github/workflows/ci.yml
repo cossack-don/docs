@@ -9,13 +9,7 @@ on:
 
 jobs:
   release:
-    branches:
-      - 'v+([0-9])?(.{+([0-9]),x}).x'
-      - main
-      - name: beta
-        prerelease: true
-      - name: alpha
-        prerelease: true
+    name: Release to NPM
     permissions:
       contents: write
     runs-on: ubuntu-latest
