@@ -1,4 +1,11 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+
+
+echo "${GREEN}Внимание! commit может быть только из данного списка: build chore ci docs feat fix perf refactor revert style test.
+Пример: git commit -m 'feat: integration api'
+"
 npx --no -- commitlint --edit "$1"
