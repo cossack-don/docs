@@ -11,9 +11,17 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        language: "ru",
+      },
+    ],
+  ],
   title: 'Zhuravlev Docs',
-  tagline: 'Dinosaurs are cool test CI_CD',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -34,8 +42,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ru',
+    locales: ['ru'],
   },
 
   presets: [
@@ -84,15 +92,17 @@ const config = {
             position: 'left',
             label: 'Документация',
           },
+          {to: '/frontend', label: 'Frontend', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
+
           {
             href: 'https://github.com/cossack-don',
-            label: 'My GitHub',
+            label: 'Мой GitHub',
             position: 'right',
           },
           {
             href: 'https://s-zhur.ru',
-            label: 'My Site',
+            label: 'Мой сайт',
             position: 'right',
           },
         ],
@@ -100,45 +110,45 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'My GitHub',
-                href: 'https://github.com/cossack-don',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'My GitHub',
+          //       href: 'https://github.com/cossack-don',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Сергей Журавлев`,
       },
