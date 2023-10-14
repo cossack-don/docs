@@ -5,17 +5,17 @@ on:
   ## only manually release for now
   workflow_dispatch:
 
-branches:
-  - 'v+([0-9])?(.{+([0-9]),x}).x'
-  - main
-  - name: beta
-    prerelease: true
-  - name: alpha
-    prerelease: true
+
 
 jobs:
   release:
-    name: Release to NPM
+    branches:
+      - 'v+([0-9])?(.{+([0-9]),x}).x'
+      - main
+      - name: beta
+        prerelease: true
+      - name: alpha
+        prerelease: true
     permissions:
       contents: write
     runs-on: ubuntu-latest
