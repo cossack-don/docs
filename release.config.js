@@ -1,10 +1,6 @@
 const config = {
     branches: [
-        'main',
-        {
-            name: 'beta',
-            prerelease: true
-        }
+        'master',
     ],
     plugins: [
         '@semantic-release/commit-analyzer',
