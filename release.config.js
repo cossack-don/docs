@@ -1,7 +1,5 @@
 const config = {
-    branches: [
-        'master',
-    ],
+    branches: ['master', 'main'],
     plugins: [
         '@semantic-release/commit-analyzer',
         '@semantic-release/release-notes-generator',
@@ -15,4 +13,3 @@ const config = {
 };
 
 module.exports = config;
-// 2
