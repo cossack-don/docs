@@ -8,5 +8,4 @@
 #echo "${GREEN}Внимание! commit может быть только из данного списка: build chore ci docs feat fix perf refactor revert style test.
 #Пример: git commit -m 'feat: integration api'
 #"
-
-npx --no-install commitlint --edit "$1"
+npx --no -- commitlint --edit "$1"
