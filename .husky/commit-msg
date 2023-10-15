@@ -21,3 +21,8 @@ if [[ ! $commit_msg =~ $regex ]]; then
     echo "$error_msg" >&2
     exit 1
 fi
+
+if [[ "$commit_message" =~ $regex ]]; then
+   echo "${GREEN} ${BOLD_TEXT} Сообщение commit-a message написано верно - в соответсвии с Conventional Commit standards..."
+   exit 0
+fi
