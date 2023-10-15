@@ -1,6 +1,9 @@
 const config = {
     branches: ['master'],
     plugins: [
+        ["semantic-release-major-tag", {
+            "next": ["v${major}-example", "example-${major}.${minor}"],
+        }],
         '@semantic-release/commit-analyzer',{
         },
         '@semantic-release/release-notes-generator',{
