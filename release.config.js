@@ -3,7 +3,7 @@ const config = {
     plugins: [
         '@semantic-release/commit-analyzer',{
             "releaseRules": [
-                { "type": "next", "release": "major" },
+                { "type": "next", "release": "minor" },
             ],
         },
         '@semantic-release/release-notes-generator',
