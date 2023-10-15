@@ -31,7 +31,7 @@ const FeatureList = [
     ),
   },
 ];
-//еуые
+//еуые1
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
