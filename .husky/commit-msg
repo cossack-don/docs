@@ -1,21 +1,16 @@
 #!/bin/sh
-
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 BOLD_TEXT='\033[1m'
-
 regex="^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-z \-]+\))?!?: .+$"
-
 commit_msg=$(cat $1)
 
 error_msg="
-  ${RED} ${BOLD_TEXT} Сообщение commit-a написано не верно - не по стандартам Conventional Commit standard
+  ${RED} ${BOLD_TEXT} Сообщение commit-a написано не верно - не по стандартам Conventional Commit standard!
   ${GREEN}  Пример valid commit-message:
- git commit -m 'feat(login): add new button' или git commit -m 'fix: add new button'
-   Подробнее: https://www.conventionalcommits.org/en/v1.0.0/#summary ${RED}
+    git commit -m 'feat(login): add new button' или git commit -m 'fix: add new button'
+    Подробнее: https://www.conventionalcommits.org/en/v1.0.0/#summary ${RED}
 "
-
-
 
 if [[ ! $commit_msg =~ $regex ]]; then
     echo "$error_msg" >&2
