@@ -3,7 +3,7 @@ const config = {
     plugins: [
         '@semantic-release/commit-analyzer',{
             "releaseRules": [
-                { "tag": "breaking", "release": "major" },
+                { "tag": "Breaking", "release": "major" },
                 { "tag": "Build", "release": "minor" },
                 { "tag": "Chore", "release": "minor" },
                 { "tag": "Fix", "release": "patch" },
@@ -14,7 +14,7 @@ const config = {
         },
         '@semantic-release/release-notes-generator',
         {"releaseRules": [
-                { "tag": "breaking", "release": "major" },
+                { "tag": "Breaking", "release": "major" },
                 { "tag": "Build", "release": "minor" },
                 { "tag": "Chore", "release": "minor" },
                 { "tag": "Fix", "release": "patch" },
