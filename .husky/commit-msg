@@ -1,18 +1,21 @@
 #!/bin/sh
-#
-# An example hook script to check the commit log message.
-# Called by "git commit" with one argument, the name of the file
-# that has the commit message.  The hook should exit with non-zero
-# status after issuing an appropriate message if it wants to stop the
-# commit.  The hook is allowed to edit the commit message file.
-#
-# Place this file under "<project-home>/.githooks/commit-msg"
-# Allow only e.g "PK-12345: ", "FPFEIL-12: ", "FIX: " eller "Merge "
 
-regex="^(PK-[0-9]{5}|FPFEIL-[0-9]{1,}|FIX|Merge|NOJIRA|RELEASE|PKMANTIS-[0-9]{1,}|PFP-[0-9]{1,}|updating poms)(:|,)? .*"
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+BOLD_TEXT='\033[1m'
+
+regex="^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-z \-]+\))?!?: .+$"
+
 commit_msg=$(cat $1)
 
-error_msg="Avbryter commit. Det er kun tillat med commit meldinger som begynne med \"PK-nnnnn \", \"PFP-nnnnn \", \"FPFEIL-nn \", \"FIX \", \"NOJIRA\" eller \"Merge \"."
+error_msg="
+  ${RED} ${BOLD_TEXT} Сообщение commit-a написано не верно - не по стандартам Conventional Commit standard
+  ${GREEN}  Пример valid commit-message:
+ git commit -m 'feat(login): add new button' или git commit -m 'fix: add new button'
+   Подробнее: https://www.conventionalcommits.org/en/v1.0.0/#summary ${RED}
+"
+
+
 
 if [[ ! $commit_msg =~ $regex ]]; then
     echo "$error_msg" >&2
