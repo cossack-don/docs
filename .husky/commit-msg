@@ -2,7 +2,7 @@
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 BOLD_TEXT='\033[1m'
-regex="^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|breaking)(\([a-z \-]+\))?!?: .+$"
+regex="^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test|next)(\([a-z \-]+\))?!?: .+$"
 commit_msg=$(cat $1)
 
 error_msg="
