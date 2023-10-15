@@ -92,7 +92,8 @@ const config = {
             position: 'left',
             label: 'Документация',
           },
-          {to: '/frontend', label: 'Frontend', position: 'left'},
+          {to: '/books', label: 'Учебники', position: 'left'},
+          {to: '/useful-tools', label: 'Инструменты', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
 
           {
