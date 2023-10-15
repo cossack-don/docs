@@ -10,7 +10,7 @@ const config = {
         '@semantic-release/npm',
         ['@semantic-release/git', {
             "releaseRules": [
-                { "type": "next", "release": "major" },
+                { "type": "feat", "release": "major" },
             ],
             'assets': ['package.json'],
             'message': 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
