@@ -6,7 +6,7 @@ RED='\033[0;31m'
 BOLD_TEXT='\033[1m'
 
 #npx --no -- commitlint --edit "$1"
-#npx --no-install commitlint --edit "$1"
+npx --no-install commitlint --edit "$1"
 
 regex="^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-z \-]+\))?!?: .+$"
 
