@@ -94,6 +94,7 @@ const config = {
           },
           {to: '/books', label: 'Учебники', position: 'left'},
           {to: '/useful-tools', label: 'Инструменты', position: 'left'},
+          {to: '/employment', label: 'Трудоустройство', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
 
           {
