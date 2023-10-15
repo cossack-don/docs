@@ -1,12 +1,28 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-#GREEN='\033[0;32m'
-#RED='\033[0;31m'
+GREEN='\033[0;32m'
+RED='\033[0;31m'
 
 
 #echo "${GREEN}Внимание! commit может быть только из данного списка: build chore ci docs feat fix perf refactor revert style test.
 #Пример: git commit -m 'feat: integration api'
 #"
-npx --no -- commitlint --edit "$1"
+#npx --no -- commitlint --edit "$1"
 #npx --no-install commitlint --edit "$1"
+# regex for a conventional commit
+regex="^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\([a-z \-]+\))?!?: .+$"
+
+# get the commit message
+commit_message=$(cat "$1")
+
+if [[ "$commit_message" =~ $regex ]]; then
+   echo "Commit message meets Conventional Commit standards..."
+   exit 0
+fi
+
+echo "${RED}The commit message does not meet the Conventional Commit standard"
+echo "${GREEN}An example of a valid message is: "
+echo "  feat(login): add the 'remember me' button"
+echo "More details at: https://www.conventionalcommits.org/en/v1.0.0/#summary"
+exit 1
