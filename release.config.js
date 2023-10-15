@@ -2,6 +2,7 @@ const config = {
     branches: ['master'],
     plugins: [
         '@semantic-release/commit-analyzer',{
+            "preset": "angular",
             "releaseRules": [
                 { "type": "feat", "release": "major" },
             ],
