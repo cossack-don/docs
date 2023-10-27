@@ -5,4 +5,4 @@
 
 - [Моя документация](https://zhuravlev-docs.vercel.app/)
 
-![alt text](https://github.com/cossack-don/docs/blob/master/docs/road.png)
+![alt text](https://github.com/cossack-don/docs/blob/master/docs/road.png?raw=true)
