@@ -1,3 +1,10 @@
+# [4.5.0](https://github.com/cossack-don/docs/compare/v4.4.0...v4.5.0) (2023-10-29)
+
+
+### Features
+
+* Update me.md ([77e5ecd](https://github.com/cossack-don/docs/commit/77e5ecd9cb2bd84c80a4acb909b99e1fb2a1e2a2))
+
 # [4.4.0](https://github.com/cossack-don/docs/compare/v4.3.0...v4.4.0) (2023-10-20)
 
 
