@@ -126,6 +126,7 @@ const config = {
           {to: '/useful-tools', label: 'Инструменты', position: 'left'},
           {to: '/employment', label: 'Трудоустройство', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/me', label: 'Me', position: 'left'},
 
           {
             href: 'https://github.com/cossack-don',
