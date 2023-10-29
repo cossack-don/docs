@@ -1,3 +1,10 @@
+## [4.5.3](https://github.com/cossack-don/docs/compare/v4.5.2...v4.5.3) (2023-10-29)
+
+
+### Bug Fixes
+
+* build and Update core-lern.md ([76b6921](https://github.com/cossack-don/docs/commit/76b69212b5f8ec98c66bf3a8806297fac41ccb26))
+
 ## [4.5.2](https://github.com/cossack-don/docs/compare/v4.5.1...v4.5.2) (2023-10-29)
 
 
