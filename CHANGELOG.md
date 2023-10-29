@@ -1,3 +1,10 @@
+## [4.5.2](https://github.com/cossack-don/docs/compare/v4.5.1...v4.5.2) (2023-10-29)
+
+
+### Bug Fixes
+
+* update build and change dir for file ([e24faeb](https://github.com/cossack-don/docs/commit/e24faeb54cdca171e5be827308512fc898c65d49))
+
 ## [4.5.1](https://github.com/cossack-don/docs/compare/v4.5.0...v4.5.1) (2023-10-29)
 
 
