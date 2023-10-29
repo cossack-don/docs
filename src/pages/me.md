@@ -29,6 +29,6 @@
 ### Документации
 ###### [Все доки на ru/en](https://runebook.dev/ru/)
 ###### [Яндекс Дока](https://doka.guide/)
-###### [Metanit](https://metanit.com/)
-###### [LernVue](https://learnvue.co/)
 
+
+<hr>
