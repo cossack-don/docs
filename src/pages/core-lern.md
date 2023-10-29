@@ -31,5 +31,6 @@
 ###### [Яндекс Дока](https://doka.guide/)
 ###### [Metanit](https://metanit.com/)
 ###### [LernVue](https://learnvue.co/)
+###### [Linux docs](https://losst.pro/)
 
 <hr/>
