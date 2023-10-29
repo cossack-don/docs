@@ -29,6 +29,6 @@
 ###### [Все доки на ru/en](https://runebook.dev/ru/)
 ###### [Яндекс Дока](https://doka.guide/)
 ###### [LernVue](https://learnvue.co/)
-###### [Metanit](https://metanit.com/) + node.js
+###### [Metanit](https://metanit.com/)
 
 
