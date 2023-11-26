@@ -1,3 +1,10 @@
+## [4.5.4](https://github.com/cossack-don/docs/compare/v4.5.3...v4.5.4) (2023-11-26)
+
+
+### Bug Fixes
+
+* test ([16c905f](https://github.com/cossack-don/docs/commit/16c905f711937b1d572f5d15323359e81c954d19))
+
 ## [4.5.3](https://github.com/cossack-don/docs/compare/v4.5.2...v4.5.3) (2023-10-29)
 
 
