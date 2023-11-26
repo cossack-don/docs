@@ -1,3 +1,10 @@
+## [4.6.1](https://github.com/cossack-don/docs/compare/v4.6.0...v4.6.1) (2023-11-26)
+
+
+### Bug Fixes
+
+* test - delete comment ([4c5a25a](https://github.com/cossack-don/docs/commit/4c5a25ac9e124e84cf32c901705a4cf8be695abc))
+
 # [4.6.0](https://github.com/cossack-don/docs/compare/v4.5.4...v4.6.0) (2023-11-26)
 
 
