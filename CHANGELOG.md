@@ -1,3 +1,10 @@
+# [4.7.0](https://github.com/cossack-don/docs/compare/v4.6.2...v4.7.0) (2023-11-26)
+
+
+### Features
+
+* delete img road ([9bab4a4](https://github.com/cossack-don/docs/commit/9bab4a4c5f88ddfbdf90d7d5ed8056ae4f071fed))
+
 ## [4.6.2](https://github.com/cossack-don/docs/compare/v4.6.1...v4.6.2) (2023-11-26)
 
 
