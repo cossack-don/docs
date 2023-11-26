@@ -1,3 +1,10 @@
+# [4.6.0](https://github.com/cossack-don/docs/compare/v4.5.4...v4.6.0) (2023-11-26)
+
+
+### Features
+
+* update token-test ([f687917](https://github.com/cossack-don/docs/commit/f687917dab9dc46d4d26b0f96f0f1688aafa6557))
+
 ## [4.5.4](https://github.com/cossack-don/docs/compare/v4.5.3...v4.5.4) (2023-11-26)
 
 
